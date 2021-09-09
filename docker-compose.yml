@@ -1,0 +1,16 @@
+version: '3'
+
+networks:
+  app-tier:
+    driver: bridge
+
+services:
+  etcd:
+    image: bitnami/etcd:latest
+    container_name: etcd
+    environment:
+      - ALLOW_NONE_AUTHENTICATION=yes
+    ports:
+      - 2379:2379
+    networks:
+      - app-tier

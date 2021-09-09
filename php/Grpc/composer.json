@@ -1,0 +1,43 @@
+{
+  "name": "sane/demo",
+  "description": "grpc demo",
+  "keywords": ["demo"],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=7.0.0",
+    "google/protobuf": "^3.17",
+    "grpc/grpc": "^1.39"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "psr-4": {
+    },
+    "files": [
+
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "extra": {
+  },
+  "scripts": {
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}

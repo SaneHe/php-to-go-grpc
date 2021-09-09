@@ -1,0 +1,9 @@
+vendor/
+/.idea
+/.vscode
+/.vagrant
+tmp/
+*.log
+.env
+.phpunit.result.cache
+/_ide_helper.php
